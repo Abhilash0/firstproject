@@ -1,0 +1,383 @@
+.logo{
+    padding: 20px 0;
+}
+
+section.banner_section {
+    background: url(../images/banner.jpeg);
+    min-height: 531px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.container.banner_inner_txt {
+    position: absolute;
+    width: 100%;
+    left: 12%;
+    top: 44%;
+}
+.banner_inner_txt h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner_inner_txt h3 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #000;
+}
+.text-center.covid_alert_txt {
+    max-width: 787px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.covid_alert_txt h5 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.covid_alert_txt p {
+    font-size: 20px;
+}
+.covid_alert_txt a{
+    color: #000;
+}
+.covid_alert_txt a:hover{
+    text-decoration: none;
+}
+.update_bar {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+.update_bar h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 33px;
+    margin-bottom: 33px;
+}
+a.btn.read_btn {
+    background: #33b5e5;
+    border-radius: 100px;
+    color: #fff;
+    padding: 12px 39px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.group_bar {
+    padding: 50px 0;
+}
+.group_bar h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+}   
+.group_bar h5 {
+    color: #0099CC;
+    font-size: 21px;
+}
+.group_bar p {
+    font-size: 19px;
+    margin: 20px 0;
+}
+.tip_bar {
+    text-align: right;
+    padding: 40px 0;
+}
+.tip_bar h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tip_bar h6 {
+    color: #0099CC;
+    font-size: 18px;
+}
+.tip_bar p {
+    font-size: 19px;
+    margin: 25px 0;
+}
+.plus_bar {
+    position: absolute;
+    top: 24%;
+}
+.plus_bar h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.plus_bar h5 {
+    color: #0099CC;
+}
+.plus_bar p {
+    margin: 30px 0;
+    font-size: 20px;
+}
+.text-center.leadership {
+    padding: 70px 0;
+    max-width: 887px;
+    margin: 0 auto;
+}
+.braces {
+    width: 125px;
+    margin-top: -40px;
+    margin-left: -390px;
+    position: absolute;
+}
+.leadership h2 {
+    font-weight: bold;
+}
+.leadership p {
+    font-size: 19px;
+}
+.brace {
+    width: 125px;
+    margin-top: -40px;
+    margin-left: 390px;
+    position: absolute;
+}
+.academy {
+    padding: 80px 0;
+}
+.academy p {
+    margin-top: 20px;
+    font-size: 19px;
+}
+.ramadan {
+    padding: 100px 0;
+}
+.ramadan h2 {
+    color: #6868ab;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+}
+.ramadan p {
+    font-size: 21px;
+    margin: 20px 0;
+    text-align: right;
+}
+.response {
+    padding: 80px 0;
+}
+.response h2 {
+    font-weight: bold;
+    color: #6868ab;
+}
+.response p {
+    font-size: 21px;
+}
+.lighter_matter {
+    padding: 80px 0;
+}
+.lighter_matter h2 {
+    font-weight: bold;
+    color: #6868ab;
+}
+.lighter_matter p {
+    font-size: 21px;
+    color: #0000ff;
+}
+p.par {
+    color: #3149a2;
+}
+.pra {
+    font-size: 10px;
+    border-bottom: outset 2px #0000ff;
+    color: #0000ff;
+    border-top: outset 2px #0000ff;
+    font-weight: bold;
+}
+.bg {
+    background-color: #608cbb!important;
+    color: #ffffff;
+}
+.pressing_on {
+    padding: 80px 0;
+}
+.braces {
+    width: 125px;
+    margin-top: -40px;
+    margin-left: -390px;
+    position: absolute;
+}
+.pressing_on h2 {
+    font-weight: bold;
+}
+.pressing_on p {
+    font-size: 19px;
+}
+.pressing_on h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.brac {
+    width: 125px;
+    margin-top: -60px;
+    margin-left: 272px;
+    position: absolute;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    section.banner_section {
+        min-height: 261px!important;
+    }
+    .container.banner_inner_txt {
+        left: 0px!important;
+        top: 56%!important;
+    }
+    .banner_inner_txt h1 {
+        font-size: 25px!important;
+    }
+    .banner_inner_txt h3 {
+        font-size: 20px!important;
+    }
+    .text-center.covid_alert_txt {
+        padding: 15px 0!important;
+    }
+    .covid_alert_txt h5 {
+        font-size: 22px!important;
+    }
+    .covid_alert_txt p {
+        font-size: 12px!important;
+    }
+    .gceo img {
+        width: 100%;
+    }
+    .update_bar {
+        position: unset!important;
+        text-align: center!important;
+        margin-top: 15px!important;
+    }
+    .update_bar h2 {
+        font-size: 21px!important;
+    }
+    a.btn.read_btn {
+        padding: 12px 30px!important;
+        font-size: 15px!important;
+    }
+    .group_bar {
+        text-align: center!important;
+    }
+    .group_bar h2 {
+        font-size: 28px!important;
+    }
+    .group_bar h5 {
+        font-size: 14px!important;
+    }
+    .group_bar p {
+        font-size: 12px!important;
+    }
+    video {
+        width: 100%!important;
+    }
+    .tip_bar {
+        text-align: center!important;
+    }
+    .tip_bar h2 {
+        font-size: 22px!important;
+    }
+    .tip_bar h6 {
+        font-size: 14px!important;
+    }
+    .tip_bar p {
+        font-size: 12px!important;
+    }
+    .plus_bar {
+        position: unset!important;
+        text-align: center!important;
+        padding: 20px 0!important;
+    }
+    .plus_bar h2 {
+        font-size: 24px!important;
+    }
+    .plus_bar h5 {
+        font-size: 17px!important;
+    }
+    .plus_bar p {
+        margin: 18px 0!important;
+        font-size: 12px!important;
+    }
+    .text-center.leadership {
+        padding: 35px 0!important;
+        position: relative!important;
+
+    }
+    .braces {
+        width: 91px!important;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+        left: -30px!important;
+        top: 43px!important;
+    }
+    .leadership p {
+        font-size: 12px!important;
+    }
+    .leadership h2 {
+        font-weight: bold!important;
+        font-size: 21px!important;
+    }
+    .brace {
+        width: 91px!important;
+        position: absolute!important;
+        right: -12px!important;
+        top: 36%!important;
+    }
+    .gceo {
+        margin-top: 41px!important;
+    }
+    .academy {
+        padding: 20px 0!important;
+        text-align: center!important;
+    }
+.academy p {
+    font-size: 12px!important;
+}
+.ramadan {
+    padding: 20px 0!important;
+}
+.ramadan_sec {
+    text-align: center!important;
+}
+.ramadan h2 {
+    font-size: 24px!important;
+    text-align: center!important;
+}
+.ramadan p {
+    font-size: 12px!important;
+    text-align: center!important;
+}
+.response {
+    padding: 20px 0!important;
+    text-align: center!important;
+}
+.response h2 {
+    font-size: 20px!important;
+}
+.response p {
+    font-size: 12px!important;
+}
+.lighter_matter {
+    padding: 20px 0!important;
+}
+.pressing_on {
+    padding: 20px 0!important;
+    position: relative!important;
+}
+.pressing_on h2 {
+    font-size: 20px!important;
+}
+.pressing_on p {
+    font-size: 12px!important;
+}
+.pressing_on h5 {
+    font-size: 14px!important;
+}
+.brac {
+    width: 91px;
+    margin-top: 0px!important;
+    margin-left: 0px!important;
+    position: absolute!important;
+    top: 57px!important;
+    right: 7px!important;
+}
+}
