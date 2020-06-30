@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header
+{
+	background-color: #8e8585;
+	color: white;
+}
+
+.nav_bar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.content li{
+	list-style: none;
+	text-decoration: none;
+}

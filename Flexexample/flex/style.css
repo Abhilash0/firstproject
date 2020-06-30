@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	background: #566c2b;
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+}
+
+header ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+header a{
+	color: #fff;
+}
+
+a { 
+	text-decoration: none; 
+}
+
+#logo{
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+#menu li{
+	padding: 10px;
+}
+
+#social-links li{
+	padding: 10px;
+}
+
+#main{
+	display: flex;
+}
+
+aside{
+	padding: 10px;
+	flex: 0 0 20vw;
+	background: beige;
+}
+
+aside img{
+	width: 100%;
+}
+
+aside ul{
+	list-style: none;
+	padding: 0;
+}
+
+aside ul a{
+	color: #566c2b;
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid grey;
+}
+
+article{
+	padding: 10px;
+}
+
+.services-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-box{
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-bottom: 15px;
+	flex-basis: 32%;
+	max-width: 370px;
+	display: flex;
+	flex-direction: column;
+}
+
+.service-box{
+	margin: 5px 0 10px;
+}
+
+.service-box p{
+	margin: 0 0 10px;
+}
+
+.service-box img{
+	width: 100%;
+}
+
+.call-to-action{
+	align-self: flex-start;
+	margin-top: auto;
+}
+
+.call-to-action a{
+	background: grey;
+	color: #fff;
+	border: 2px solid transparent;
+	padding: 8px 13px;
+	display: block;
+}
+
+.call-to-action a:hover{
+	color: grey;
+	background: transparent;
+	border: 2px solid grey;
+
+}	
+
+footer{
+	background: #566c2b;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+
